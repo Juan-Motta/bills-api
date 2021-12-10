@@ -1,0 +1,10 @@
+venv
+temp
+/src/static/
+apps/clients/migrations/*
+apps/products/migrations/*
+apps/bills/migrations/*
+!apps/clients/migrations/__init__.py
+!apps/products/migrations/__init__.py
+!apps/bills/migrations/__init__.py
+*.sqlite3
