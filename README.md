@@ -244,9 +244,14 @@ http://localhost:8000/api/clients/all/csv
 
 ###### Cargar CSV con datos de usuarios
 Carga un archivo CSV y registra todos los usuarios contenidos en el mismo en la base de datos, requiere un token con permisos de administrador.
+
+![image](https://user-images.githubusercontent.com/78517969/145653105-59159f3e-37e7-4583-9c22-d4efb6b476bd.png)
+
+
 ```
 http://localhost:8000/api/clients/all/csv
 ```
+
 Modelo del archivo CSV
 ```
 id,email,first_name,last_name,document
